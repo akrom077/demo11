@@ -80,6 +80,7 @@ body {
   height: 0px;
   left: 240px;
   top: 365px;
+
   border: 2px solid #A92A1D;
   transform: rotate(-180deg);
 }
@@ -92,12 +93,14 @@ body {
 }
 
 .main-h1 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
   line-height: 73px;
+
   color: rgba(255, 255, 255, 0.75);
+
   width: 460px;
 }
 
@@ -112,6 +115,7 @@ body {
   padding-left: 28px;
   padding-bottom: 12px;
   margin-top: 34px;
+
 }
 
 .main-link:hover {
@@ -120,6 +124,7 @@ body {
 }
 
 .play {
+
   text-align: center;
 }
 
@@ -143,6 +148,7 @@ body {
   color: white;
   background-color: black;
   padding-top: 890px;
+
 }
 
 .popular {
@@ -156,11 +162,17 @@ body {
 .section-img {
   /* padding-top: 145px;
   display: flex; */
+
   height: 744px;
   margin-left: -161px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 116px;
+
 }
 
 .men-gem {
@@ -172,12 +184,14 @@ body {
 }
 
 .title {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
+
   color: rgba(255, 255, 255, 0.75);
+
   width: 363px;
   height: 132px;
 }
@@ -188,18 +202,21 @@ body {
   height: 0px;
   left: 737px;
   top: 2033px;
+
   border: 2px solid #E74C3C;
   transform: rotate(90deg);
 }
 
 .libero {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   /* or 156% */
+
   letter-spacing: -0.05em;
+
   color: rgba(255, 255, 255, 0.75);
   width: 699px;
   height: 136px;
@@ -209,7 +226,7 @@ body {
 
 .div-one {
   display: flex;
-  margin-top: 170px;
+  margin-top: 170px
 }
 
 .magne {
@@ -218,32 +235,37 @@ body {
 }
 
 .training {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
   /* identical to box height */
+
+
   color: rgba(255, 255, 255, 0.75);
 }
 
 .optimized {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
+
   color: rgba(255, 255, 255, 0.75);
 }
 
 .elit {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   /* or 156% */
+
   letter-spacing: -0.05em;
+
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -257,7 +279,6 @@ body {
   margin-top: 87px;
   margin-left: -156px;
 }
-
 .man6 {
   position: absolute;
   margin-top: -50px;
@@ -270,6 +291,8 @@ body {
   margin-left: 532px;
 }
 
+
+
 .ispum {
   margin-top: -113px;
   margin-left: 520px;
@@ -280,12 +303,11 @@ body {
 .neque {
   position: absolute;
   text-align: center;
-  margin-top: -60px;
+  margin-top:-60px ;
   margin-left: 430px;
   width: 388px;
   height: 93px;
 }
-
 .div-bac {
   background-image: url("../img/bacgrund.png");
   width: 100%;
@@ -296,17 +318,20 @@ body {
 }
 
 .our {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  /* identical to box height */
-  text-align: center;
-  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+text-align: center;
+
+color: rgba(255, 255, 255, 0.75);
   /* position: absolute; */
   margin: 0px;
   margin-top: 50px;
+
 }
 
 .dolor {
@@ -318,22 +343,23 @@ body {
   margin-top: 70px;
 }
 
-input {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-  /* identical to box height, or 144% */
-  letter-spacing: -0.05em;
-  text-align: center;
-  color: #FFFFFF;
-  background: none;
-  border: 1px solid #FFFFFF;
-  padding: 17px 55px;
-}
+input{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
 
-.registr {
+letter-spacing: -0.05em;
+text-align: center;
+color: #FFFFFF;
+background: none;
+border: 1px solid #FFFFFF;
+padding: 17px 55px;
+
+}
+.registr{
   display: flex;
   justify-content: center;
   text-align: center;
@@ -344,24 +370,20 @@ input {
   cursor: pointer;
   transition: 0.5s;
 }
-
-.registr:hover {
+.registr:hover{
   background-color: gray;
   color: white;
 }
-
-.registr:focus {
+.registr:focus{
   transition: 0;
   box-shadow: 0px 0px 0px 3px black;
 }
-
-.a {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
+.a{
+display: flex;
+justify-content: center;
+text-decoration: none;
 }
-
-.btn_sumbit {
+.btn_sumbit{
   display: flex;
   justify-content: center;
 }
@@ -380,9 +402,9 @@ footer {
   padding-top: 148px;
 }
 
-.footer > ul > li {
+.footer>ul>li {
   list-style-type: none;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -391,11 +413,16 @@ footer {
 }
 
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .footer-p {
+
   padding-top: 100px;
   margin-left: 700px;
-}/*# sourceMappingURL=main.css.map */
+}
+
