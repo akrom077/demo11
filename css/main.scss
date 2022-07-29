@@ -279,6 +279,7 @@ body {
   margin-top: 87px;
   margin-left: -156px;
 }
+
 .man6 {
   position: absolute;
   margin-top: -50px;
@@ -303,11 +304,12 @@ body {
 .neque {
   position: absolute;
   text-align: center;
-  margin-top:-60px ;
+  margin-top: -60px;
   margin-left: 430px;
   width: 388px;
   height: 93px;
 }
+
 .div-bac {
   background-image: url("../img/bacgrund.png");
   width: 100%;
@@ -319,15 +321,15 @@ body {
 
 .our {
   font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 44px;
-/* identical to box height */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75);
   /* position: absolute; */
   margin: 0px;
   margin-top: 50px;
@@ -343,23 +345,24 @@ color: rgba(255, 255, 255, 0.75);
   margin-top: 70px;
 }
 
-input{
+input {
   font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 26px;
-/* identical to box height, or 144% */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
 
-letter-spacing: -0.05em;
-text-align: center;
-color: #FFFFFF;
-background: none;
-border: 1px solid #FFFFFF;
-padding: 17px 55px;
+  letter-spacing: -0.05em;
+  text-align: center;
+  color: #FFFFFF;
+  background: none;
+  border: 1px solid #FFFFFF;
+  padding: 17px 55px;
 
 }
-.registr{
+
+.registr {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -370,20 +373,24 @@ padding: 17px 55px;
   cursor: pointer;
   transition: 0.5s;
 }
-.registr:hover{
+
+.registr:hover {
   background-color: gray;
   color: white;
 }
-.registr:focus{
+
+.registr:focus {
   transition: 0;
   box-shadow: 0px 0px 0px 3px black;
 }
-.a{
-display: flex;
-justify-content: center;
-text-decoration: none;
+
+.a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
-.btn_sumbit{
+
+.btn_sumbit {
   display: flex;
   justify-content: center;
 }
@@ -417,7 +424,7 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .footer-p {
@@ -425,4 +432,3 @@ footer {
   padding-top: 100px;
   margin-left: 700px;
 }
-
